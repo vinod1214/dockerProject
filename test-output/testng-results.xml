@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38841" started-at="2020-08-20T11:43:36 IST" finished-at="2020-08-20T11:44:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38841" started-at="2020-08-20T11:43:36 IST" finished-at="2020-08-20T11:44:15 IST">
+      <class name="docker.DockerWithFirefox4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:docker.DockerWithFirefox4@3224f60b]" name="test4" duration-ms="13657" started-at="2020-08-20T11:43:56 IST" finished-at="2020-08-20T11:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- docker.DockerWithFirefox4 -->
+      <class name="docker.Setup_DockerGrid">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@3b084709]" name="startDockerGrid" is-config="true" duration-ms="20035" started-at="2020-08-20T11:43:36 IST" finished-at="2020-08-20T11:43:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@3b084709]" name="stopDockerGrid" is-config="true" duration-ms="5063" started-at="2020-08-20T11:44:10 IST" finished-at="2020-08-20T11:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.Setup_DockerGrid -->
+      <class name="docker.DockerWithChrome">
+        <test-method status="PASS" signature="test1()[pri:0, instance:docker.DockerWithChrome@63e2203c]" name="test1" duration-ms="5235" started-at="2020-08-20T11:43:56 IST" finished-at="2020-08-20T11:44:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- docker.DockerWithChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
